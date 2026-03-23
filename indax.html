@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amen Pictures | Video Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">AMEN PICTURES</div>
+        <div class="nav-links">
+            <a href="#work">ስራዎች</a>
+            <a href="#contact">አግኙኝ</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>በምስል ታሪክን እንተርካለን</h1>
+        <p>ፕሮፌሽናል የቪዲዮ ኤዲቲንግ እና የሲኒማቶግራፊ ስራዎች</p>
+        <a href="#work" class="btn">ስራዎቼን ተመልከት</a>
+    </header>
+
+    <section id="work" class="portfolio">
+        <h2 class="section-title">የቅርብ ጊዜ ስራዎች</h2>
+        <div class="grid">
+            <div class="card" onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="thumb">
+                    <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80" alt="Work">
+                    <div class="overlay"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="info">
+                    <h3>Commercial Edit</h3>
+                    <p>Color Grading / Fast Cut</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="openVideo('#')">
+                <div class="thumb">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Work">
+                    <div class="overlay"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="info">
+                    <h3>Wedding Highlight</h3>
+                    <p>Cinematic Storytelling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>አብረን እንስራ</h2>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>© 2026 Amen Pictures</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
